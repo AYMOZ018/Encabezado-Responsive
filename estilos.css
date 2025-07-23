@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    /*sus elementos en horizontal*/
+    display: flex;
+    /*altura del encabezado*/
+    height: 110px;
+    /*fondo de header*/ 
+    background-color: rgb(69, 187, 53);
+
+    /*background: linear-gradient( rgb(164, 124, 218) 80% , rgb(241, 206, 212));*/
+
+    /*se separen sus elementos en las esquinas*/
+    justify-content: space-between;
+    /*alinear elementos veticalmente al centro*/
+    align-items: center;
+
+    padding: 20px;
+}
+
+.logo{
+    /*sus elementos en horizontal*/
+    display: flex;
+    /*alinear elementos veticalmente al centro*/
+    align-items: center;
+}
+
+.logo img{
+    /*altura del logo*/
+    height: 90px;
+    /*separar los el logo del nombre*/
+    margin-right: 10px;
+}
+
+.logo h2{
+    color: black;
+}
+
+nav a{
+    color: aliceblue;
+    font-weight: 600;
+    padding-right: 15px;
+}

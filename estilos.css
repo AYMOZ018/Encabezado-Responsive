@@ -12,7 +12,7 @@ header{
     /*sus elementos en horizontal*/
     display: flex;
     /*altura del encabezado*/
-    height: 110px;
+    min-height: 110px;
     /*fondo de header*/ 
     background-color: rgb(69, 187, 53);
 
@@ -22,7 +22,7 @@ header{
     justify-content: space-between;
     /*alinear elementos veticalmente al centro*/
     align-items: center;
-
+    /*espaciado interno*/
     padding: 20px;
 }
 
@@ -44,8 +44,32 @@ header{
     color: black;
 }
 
+nav{
+    display: flex;
+    gap: 20px; /* Espaciado entre enlaces */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center;
+}
+
 nav a{
     color: aliceblue;
+    /*letra en negrita*/
+    font-size: 24px;
     font-weight: 600;
-    padding-right: 15px;
+
+    
+}
+
+nav a:hover{
+    color: rgb(15, 54, 9);
+}
+
+@media (max-width:900px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        margin-top: 10px;
+    }
 }

@@ -35,7 +35,7 @@ header{
 
 .logo img{
     /*altura del logo*/
-    height: 90px;
+    height: 50px;
     /*separar los el logo del nombre*/
     margin-right: 10px;
 }
@@ -52,16 +52,16 @@ nav{
 }
 
 nav a{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     /*letra en negrita*/
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 600;
 
     
 }
 
 nav a:hover{
-    color: rgb(15, 54, 9);
+    color: rgb(255, 255, 255);
 }
 
 @media (max-width:900px){
